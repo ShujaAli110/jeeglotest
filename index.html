@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+    <head>
+            <meta charset="UTF-8">
+            <title>Jeeglo Practical Test</title>
+            <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" >
+            <link rel="stylesheet" type="text/css" href="style.css">
+            <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+            <link href="https://unpkg.com/@ionic/core@latest/css/ionic.bundle.css" rel="stylesheet"/>
+    <script src="https://unpkg.com/@ionic/core@latest/dist/ionic.js"></script>
+    </head>
+<body >
+<ion-grid>
+<ion-row>
+        <ion-col size-md="6" offset-md="3">
+    
+<ion-card>
+            
+    <ion-card-header>
+    <div class="container">
+        <ul class="nav nav-tabs" class="nav">
+                <li class="active"><a href="#edit" data-toggle="tab"><ion-icon slot="start" name="create"></ion-icon>Edit</a></li>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <li ><a href="#add" data-toggle="tab"><ion-icon name="add-circle"></ion-icon>Add</a></li>
+        </ul>
+    </ion-card-header>
+    <ion-card-content>
+        <div class="tab-content">
+            
+            <div class="tab-pane" id="edit">
+                <div class="box" class="container-fluid top-bar">
+                        <h5>Font
+                        <select>
+                            <option>Helvica</option>
+                            <option>Marculeus</option>
+                            <option>Arial</option>
+                            <option>Capri</option>
+                            <option>Arial golden</option>
+                        </select>
+                </h5>
+                        
+                </div>
+     <hr>
+
+     <div class="settings">
+        <h5 id="link"></h5> 
+        <h5 class="c">First Name Settings</h5>
+         <h6>Label &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" id="name" placeholder="enter name"></h6>
+         <h6>Placeholder &nbsp;&nbsp;&nbsp;&nbsp;<input type="text"></h6>
+         <h6>Required &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="checkbox"></h6>
+
+     </div>            
+            </div>
+            <div class="tab-pane" id="add" class="add">
+                <p>You are Adding!!!</p>
+            </div>
+                
+        </div>
+    </div>
+   </ion-card-content>
+</ion-card>
+</ion-col>
+</ion-row>
+</ion-grid>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <scipt src="js.js"></scipt>
+</body>
+</html>

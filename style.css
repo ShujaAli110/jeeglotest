@@ -1,0 +1,24 @@
+.settings{
+width:100%;
+height:350px;
+}
+
+.box {
+
+    width:25%;
+    height:100%;
+    padding:10px;
+
+}
+
+.c{
+    color:blue;
+    font-size: 120em;
+}
+.add{
+    background-color: orangered;
+
+}
+.nav{
+    font-size: 20px;
+}
